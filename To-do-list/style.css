@@ -20,7 +20,7 @@ body{
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-   background: url(images.jpeg) center / 100vw 100vh  no-repeat;
+   background: url(fundo-da-paisagem_23-2148006795.avif) center / 100vw 100vh  no-repeat;
    
 }
 
@@ -48,7 +48,6 @@ li{
 button{
     background-color: var(--primary);
     color: #ffff;
-    padding: 4px;
     border-radius: 3px;
     border: 1px solid white;
 }
@@ -62,20 +61,45 @@ button:hover{
 .loyalt-task{
     border-radius: 5px;
     margin: 6px;
-    background-color: var();
+    background-color: var(--primary);
 
 }
 .task-container{ 
     display: flex;
     justify-content: space-between;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
+.alinhar-cont{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 100%; 
+}
+
+.task-text{
+    margin: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+.done{
+    background-color: rgb(130, 194, 34);
+    text-decoration: line-through;
+
+}
+
+
 
 
 .teste{
     color: aqua;
     text-decoration: line-through;
-    
+    padding: 5px;
 
+}
+
+
+
+.material-symbols-outlined{
+    
 }
