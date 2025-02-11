@@ -17,60 +17,29 @@
     <div class="container">
         <div class="container-header">
             <form action="#" class="form-container">
-                <label for="tarefa">Tarefa:</label>
+                <label for="tarefa" class="label-tarefa">Tarefa:</label>
                 <input type="text" name="tarefa" id="tarefa" placeholder="Adicione aqui sua tarefa">
-                <button type="submit">+</button>
+                <button type="submit" class="add"><span class="material-symbols-outlined">
+                    add
+                    </span></button>
             </form>
         </div>
 
         <div class="container-body">
-            <ul>
-                <li class="loyalt-task">
+            <ul class="tasks">
+               
+                <li class="loyalt-task done hide">
                     <div class="task-container alinhar-cont">
-                        <span class="task-text">TASKSSSSSSSSSSSSS</span>
+                        <span class="task-text">TASKSSSSaaaaaaSSSSSssssssSSS</span>
                         <div class="task-buttons">
-                            <button>
+                            <button class="done-btn">
                                 <span class="material-symbols-outlined">check</span>
                             </button>
-                            <button>
-                                <span class="material-symbols-outlined">delete</span>
-                            </button>
-                            <button>
+                            <button class="edite-btn">
                                 <span class="material-symbols-outlined">edit</span>
                             </button>
-                        </div>
-                    </div>
-                </li>
-                <li class="loyalt-task">
-                    <div class="task-container alinhar-cont">
-                        <div>
-                            <span class="task-text">TASKSSSSSSSSSSSSS</span>
-                        </div>
-                        <div class="task-buttons">
-                            <button>
-                                <span class="material-symbols-outlined">check</span>
-                            </button>
-                            <button>
+                            <button class="delete-btn">
                                 <span class="material-symbols-outlined">delete</span>
-                            </button>
-                            <button>
-                                <span class="material-symbols-outlined">edit</span>
-                            </button>
-                        </div>
-                    </div>
-                </li>
-                <li class="loyalt-task done">
-                    <div class="task-container alinhar-cont">
-                        <span class="task-text">TASKSSSSSaaaaaaaaaaaaSSSSSssssssSSS</span>
-                        <div class="task-buttons">
-                            <button>
-                                <span class="material-symbols-outlined">check</span>
-                            </button>
-                            <button>
-                                <span class="material-symbols-outlined">delete</span>
-                            </button>
-                            <button>
-                                <span class="material-symbols-outlined">edit</span>
                             </button>
                         </div>
                     </div>

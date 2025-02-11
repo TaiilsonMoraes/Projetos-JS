@@ -27,7 +27,7 @@ body{
 }
 
 .container{
-    max-width: 700px;
+    max-width: 450px;
     max-height: 500px;
     border: 1px solid var(--dark-3);
     padding: 5px;
@@ -36,8 +36,22 @@ body{
 }
 
 .container-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-bottom: 1px solid var(--dark-3);
     padding: 9px;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tarefa{
+    font-size: 19.7px;
+}
+.label-tarefa{
+    font-size: 25px;
 }
 
 li{
@@ -90,6 +104,9 @@ button:hover{
     background-color: var(--done);
     text-decoration: line-through;
 
+}
+.hide{
+    display: none;
 }
 
 .edit-box {
